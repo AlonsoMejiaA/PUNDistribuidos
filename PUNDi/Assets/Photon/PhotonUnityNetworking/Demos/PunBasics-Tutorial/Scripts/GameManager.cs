@@ -150,7 +150,10 @@ namespace Photon.Pun.Demo.PunBasics
 		{
 			Application.Quit();
 		}
-
+		public void Leave()
+		{
+			 PhotonNetwork.LeaveRoom();
+		}
 		#endregion
 
 		#region Private Methods
